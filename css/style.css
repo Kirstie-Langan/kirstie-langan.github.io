@@ -1,0 +1,65 @@
+
+body {
+  padding: 5px 10px;
+  background-color: #dcdcdc;
+  position: relative;
+}
+
+.header {
+  background-color: #f0f0f0;
+  text-align: left;
+  font-size: 24px;
+  position: relative;
+  padding: 20px;
+}
+
+.banner {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.banner i {
+  float: right;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #a9a9a9;
+  padding: 20px;
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.main-section {
+  background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 350px;
+}
+
+main title {
+  font-size: 16px;
+}
+
+main {
+  text-align: centre;
+  max-width: 70%;
+  padding-left: 15%;
+}
+
+footer {
+  background-color: #a9a9a9;
+  text-align: left;
+  padding: 5px;
+}
+
+.branding {
+  float: right;
+}
+
+.container {
+  background-color: #fff;
+}
+
+

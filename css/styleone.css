@@ -1,3 +1,6 @@
+.container {
+  background-color: #fff;
+}
 
 body {
   padding: 5px 10px;
@@ -11,15 +14,18 @@ body {
   font-size: 24px;
   position: relative;
   padding: 20px;
+  top: 50;
 }
 
 .banner {
-  padding: 10px;
+  padding: 20px; 0px;
   overflow: hidden;
+  position: relative;
 }
 
 .banner i {
   float: right;
+  color: #000000;
 }
 
 nav {
@@ -28,8 +34,14 @@ nav {
   padding: 20px;
 }
 
+.navbar {
+  word-spacing: 15px;
+}
+
 .navbar a {
   color: #000000;
+  font-size: 20px;
+  display: inline-block;
 }
 
 .main-section {
@@ -57,9 +69,4 @@ footer {
 .branding {
   float: right;
 }
-
-.container {
-  background-color: #fff;
-}
-
 

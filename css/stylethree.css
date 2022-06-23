@@ -1,0 +1,84 @@
+.grid {
+  display: grid;
+  margin: 10px;
+  grid-template-rows: 2fr 1fr 16fr auto;
+  grid-template-columns: repeat(10, 1fr);
+  min-height: 100%;
+}
+body {
+  background-color: #dcdcdc;
+}
+.header-container {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  background-color: #f0f0f0;
+}
+.name {
+  font-size: 24px;
+  padding-left: 20px;
+}
+.icon {
+  font-size: 24px;
+  grid-area: 1 / 11 / 1 / 11;
+  margin:40px;
+}
+i {
+  color: #000000;
+  align-items: center;
+}
+nav {
+  display: grid;
+  grid-area: 2 / 1 / 2/ 11;
+  background-color: #a9a9a9;
+  word-spacing: 15px;
+}
+.navbar a {
+  color: #000000;
+  font-size: 20px;
+  padding: 20px;
+}
+.main-container {
+  background-color: #ffffff;
+  grid-template-rows: repeat(6, 5px);
+  grid-area: 3 / 1 / 18 / 11; 
+}
+.main-header {
+  display: grid;
+} 
+.title {
+  font-size: 16px;
+  max-width: 70%;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  vertical-align: center;
+}
+section {
+justify-content: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+.one {
+  font-size: 14px;
+}
+.two {
+  font-size: 14px;
+} 
+footer {
+  display: grid;
+  grid-area: 20 / 1 / 20 / 11;
+  background-color: #a9a9a9;
+  min-width: 100vn;
+}
+.copy {
+  font-size: 24px;
+  padding-left: 20px;
+  grid-row: 20;
+  grid-column: 1;
+}
+.branding {
+  font-size: 24px;
+  grid-row: 20;
+  grid-column: 11;
+  padding-right: 10px;
+}
